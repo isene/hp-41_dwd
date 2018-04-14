@@ -36,4 +36,7 @@ XEQ'W-D
 and you get:
 
 3,132006
+
+## License
+This software is released into the Public Domain.
 ```
