@@ -1,11 +1,11 @@
-<img src="img/dwd_logo.svg" align="left" width="150" height="150" alt="DWD Logo">
-
 # hp-41_dwd
 
 [![HP-41](https://img.shields.io/badge/HP--41-Calculator-orange)](https://en.wikipedia.org/wiki/HP-41C)
 [![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)
 [![GitHub stars](https://img.shields.io/github/stars/isene/hp-41_dwd.svg)](https://github.com/isene/hp-41_dwd/stargazers)
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
+
+<img src="img/dwd_logo.svg" align="left" width="150" height="150" alt="DWD Logo">
 
 ## HP-41: Simple date-to-weeknumber-to-date converter
 
