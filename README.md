@@ -6,6 +6,7 @@
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
 <img src="img/dwd_logo.svg" align="left" width="150" height="150" alt="DWD Logo">
+<br clear="left"/>
 
 ## HP-41: Simple date-to-weeknumber-to-date converter
 
