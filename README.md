@@ -1,3 +1,5 @@
+<img src="img/dwd_logo.svg" align="left" width="150" height="150" alt="DWD Logo">
+
 # hp-41_dwd
 
 [![HP-41](https://img.shields.io/badge/HP--41-Calculator-orange)](https://en.wikipedia.org/wiki/HP-41C)

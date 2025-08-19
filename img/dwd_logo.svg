@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="150" height="150" fill="#0f172a"/>
+  
+  <!-- Calendar grid -->
+  <g transform="translate(75, 50)" opacity="0.9">
+    <!-- Calendar frame -->
+    <rect x="-45" y="-25" width="90" height="65" fill="#1e293b" stroke="#334155" stroke-width="2" rx="3"/>
+    
+    <!-- Month header -->
+    <rect x="-45" y="-25" width="90" height="12" fill="#2d3748" rx="3 3 0 0"/>
+    <text x="0" y="-17" font-family="monospace" font-size="7" fill="#fff" text-anchor="middle">JANUARY 2024</text>
+    
+    <!-- Day headers -->
+    <g font-family="monospace" font-size="4" fill="#60a5fa" text-anchor="middle">
+      <text x="-37" y="-7">SUN</text>
+      <text x="-24" y="-7">MON</text>
+      <text x="-11" y="-7">TUE</text>
+      <text x="2" y="-7">WED</text>
+      <text x="15" y="-7">THU</text>
+      <text x="28" y="-7">FRI</text>
+      <text x="41" y="-7">SAT</text>
+    </g>
+    
+    <!-- Date grid -->
+    <g font-family="monospace" font-size="4" fill="#94a3b8" text-anchor="middle">
+      <!-- Week 1 -->
+      <text x="-24" y="2">1</text>
+      <text x="-11" y="2">2</text>
+      <text x="2" y="2">3</text>
+      <text x="15" y="2">4</text>
+      <text x="28" y="2">5</text>
+      <text x="41" y="2">6</text>
+      
+      <!-- Week 2 -->
+      <text x="-37" y="11">7</text>
+      <text x="-24" y="11">8</text>
+      <text x="-11" y="11">9</text>
+      <text x="2" y="11">10</text>
+      <text x="15" y="11">11</text>
+      <text x="28" y="11">12</text>
+      <text x="41" y="11">13</text>
+      
+      <!-- Week 3 - highlight today -->
+      <rect x="-16" y="14" width="10" height="8" fill="#3b82f6" stroke="#2563eb" stroke-width="1" rx="1">
+        <animate attributeName="fill" values="#3b82f6;#60a5fa;#3b82f6" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="-37" y="20">14</text>
+      <text x="-24" y="20">15</text>
+      <text x="-11" y="20" fill="#fff" font-weight="bold">16</text>
+      <text x="2" y="20">17</text>
+      <text x="15" y="20">18</text>
+      <text x="28" y="20">19</text>
+      <text x="41" y="20">20</text>
+      
+      <!-- Week 4 -->
+      <text x="-37" y="29">21</text>
+      <text x="-24" y="29">22</text>
+      <text x="-11" y="29">23</text>
+      <text x="2" y="29">24</text>
+      <text x="15" y="29">25</text>
+      <text x="28" y="29">26</text>
+      <text x="41" y="29">27</text>
+      
+      <!-- Week 5 -->
+      <text x="-37" y="38">28</text>
+      <text x="-24" y="38">29</text>
+      <text x="-11" y="38">30</text>
+      <text x="2" y="38">31</text>
+    </g>
+  </g>
+  
+  <!-- HP-41 Calculator -->
+  <g transform="translate(75, 105)">
+    <!-- Calculator body (smaller) -->
+    <rect x="-30" y="-15" width="60" height="35" rx="4" fill="#2c2c2c" stroke="#444" stroke-width="1.5"/>
+    
+    <!-- LCD Display -->
+    <rect x="-25" y="-10" width="50" height="10" rx="1" fill="#0a4d0a" stroke="#333" stroke-width="0.5"/>
+    <text x="0" y="-4" font-family="monospace" font-size="5" fill="#00ff00" text-anchor="middle">DAY OF WEEK</text>
+    
+    <!-- Result display -->
+    <rect x="-23" y="2" width="46" height="12" fill="#1a1a1a" stroke="#333" stroke-width="0.5" rx="1"/>
+    <g font-family="monospace" font-size="4" fill="#00ff00">
+      <text x="-20" y="7">2024-01-16</text>
+      <text x="-20" y="12" fill="#fbbf24" font-weight="bold">TUESDAY</text>
+    </g>
+  </g>
+  
+  <!-- Day of week indicator -->
+  <g transform="translate(25, 95)" opacity="0.8">
+    <g font-family="monospace" font-size="3.5" fill="#60a5fa">
+      <circle cx="0" cy="0" r="2" fill="#374151"/>
+      <text x="5" y="2">SUN</text>
+      
+      <circle cx="0" cy="7" r="2" fill="#374151"/>
+      <text x="5" y="9">MON</text>
+      
+      <circle cx="0" cy="14" r="2" fill="#fbbf24">
+        <animate attributeName="r" values="2;3;2" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="5" y="16" fill="#fbbf24">TUE</text>
+      
+      <circle cx="0" cy="21" r="2" fill="#374151"/>
+      <text x="5" y="23">WED</text>
+    </g>
+  </g>
+  
+  <!-- Algorithm indicator -->
+  <g transform="translate(115, 95)" opacity="0.7">
+    <text x="0" y="0" font-family="monospace" font-size="4" fill="#10b981">Zeller's</text>
+    <text x="0" y="6" font-family="monospace" font-size="4" fill="#10b981">Congruence</text>
+    <text x="0" y="13" font-family="monospace" font-size="3" fill="#94a3b8">h = (q + ⌊13(m+1)/5⌋</text>
+    <text x="0" y="18" font-family="monospace" font-size="3" fill="#94a3b8">+ K + ⌊K/4⌋ + ⌊J/4⌋</text>
+    <text x="0" y="23" font-family="monospace" font-size="3" fill="#94a3b8">- 2J) mod 7</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="75" y="135" font-family="monospace" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">DWD</text>
+  <text x="75" y="145" font-family="monospace" font-size="7" fill="#94a3b8" text-anchor="middle">Day of Week Date Calculator</text>
+</svg>
